@@ -1,8 +1,8 @@
-# OIFS here is a user defined variable that serves to backup the current
+# OIFS here is a user defined variable that serves to backup the current $IFS Field separator value
 OIFS="$IFS"
-# Reset the field seperator to somthign else
+# Reset the field seperator to somethinh else - in this case \n only
 IFS=$'\n'
-# This only splits workds on newline .. not on space
+# This only splits words on newline .. not on space
 
 
 for i in $( ls *.jpg ); do
